@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Asset"
+        android:id="@+id/asset"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_insert_drive_file_black_24dp" />
+
+    <item
+        android:title="Sort Ascending"
+        android:id="@+id/sort_asc"
+        android:icon="@drawable/ic_keyboard_arrow_down_black_24dp"
+        android:tooltipText="Sort"/>
+    <item
+        android:title="Sort Descending"
+        android:id="@+id/sort_dsc"
+        android:icon="@drawable/ic_keyboard_arrow_up_black_24dp"
+        android:tooltipText="Sort"/>
+</menu>

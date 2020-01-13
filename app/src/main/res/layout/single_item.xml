@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    app:cardCornerRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="120dp">
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/pc"
+            android:text="70032"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/pd"
+            android:layout_below="@id/pc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="24"
+            android:maxLines="1"
+            android:text="Product Description"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/fsd"
+            android:layout_below="@id/pd"
+            android:layout_width="wrap_content"
+            style="@style/TextAppearance.AppCompat"
+            android:text="Brand:  "
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/bn"
+            android:layout_below="@id/pd"
+            android:layout_toRightOf="@id/fsd"
+            android:layout_width="wrap_content"
+            android:text="Brand Name"
+            style="@style/TextAppearance.AppCompat"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/ds"
+            android:layout_width="wrap_content"
+            android:text="Expiry: "
+            style="@style/TextAppearance.AppCompat"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/expiry"
+            android:layout_toRightOf="@id/ds"
+            android:layout_width="wrap_content"
+            android:text="16/4/2018"
+            style="@style/TextAppearance.AppCompat"
+          android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/ruppe"
+            android:layout_width="wrap_content"
+            android:text="@string/Rs"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_toLeftOf="@id/mrp"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/mrp"
+            android:layout_width="wrap_content"
+            android:text="18"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/ci"
+            android:layout_width="wrap_content"
+            android:text="Customer_1"
+            android:textAllCaps="true"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_alignParentEnd="true"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
