@@ -1,1 +1,3 @@
-# Dropshop-Assignment
+# Dropshop
+
+Note: Ignored google.json file
